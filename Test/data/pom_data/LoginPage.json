@@ -1,0 +1,50 @@
+[
+  {
+    "type": "button",
+    "selector": "xpath",
+    "value": "//button[@id=\"details-button\"]",
+    "name": "detail"
+  },
+  {
+    "type": "button",
+    "selector": "xpath",
+    "value": "//*[@onclick=\"submitForm(this.form)\"]",
+    "name": "login"
+  },
+  {
+    "type": "button",
+    "selector": "xpath",
+    "value": "//span[text()=\"保存\"]",
+    "name": "save"
+  },
+  {
+    "type": "link",
+    "selector": "link text",
+    "value": "继续前往172.16.16.213（不安全）",
+    "name": "proceed_link"
+  },
+  {
+    "type": "input",
+    "selector": "xpath",
+    "value": "//*[@id=\"username\"]",
+    "name": "username"
+  },
+  {
+    "type": "input",
+    "selector": "xpath",
+    "value": "//*[@id=\"password\"]",
+    "name": "password"
+  },
+  {
+    "type": "input",
+    "selector": "css selector",
+    "value": "'div.ivu-modal-content>div.ivu-modal-body>form.ivu-form.ivu-form-label-right>div.ivu-form-item>div.ivu-form-item-content>div.ivu-input-wrapper.ivu-input-wrapper-default.ivu-input-type-password>input.ivu-input.ivu-input-default",
+    "name": "passwds"
+  },
+  {
+    "type": "url",
+    "value": "https://172.16.16.213"
+  }
+]
+
+
